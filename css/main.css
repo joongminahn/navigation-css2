@@ -1,0 +1,85 @@
+/* COMMON */
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;  
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+span.material-icons {
+  line-height: 80px;
+  font-size: 2em;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 80%;  
+  height: 100%;  
+  display: flex;
+  justify-content: center;  
+}
+.wrapper-nav {
+  background-color: cadetblue;
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+.wrapper-nav .container-menu {
+  width: 100%;
+  height: 100%;
+  background-color: coral;
+  display: flex;
+ } 
+.wrapper-nav .container-menu .main-menu {
+  width: calc(1250px/6);
+  height: 100%;
+  background-color:#999;
+  text-align: center;
+  border: 2px solid #fff;
+  /* box-sizing: border-box; */
+  line-height: 80px;
+  cursor: pointer;  
+  font-weight:600;     
+  letter-spacing: 0.4em;
+ } 
+ .wrapper-nav .container-menu .main-menu:nth-child(2) {
+  background-color:cornflowerblue;
+  }
+  .wrapper-nav .container-menu .main-menu .group-li {
+    margin-top: -10px;
+    visibility: hidden;    
+   }
+   .wrapper-nav .container-menu .main-menu:hover .group-li {
+    visibility: visible;    
+   }
+ .wrapper-nav .container-menu .main-menu .group-li li{
+   height: 80px;
+   border-top: 2px solid #fff;
+   background-color: #C7F5FF
+  }
+  .wrapper-nav .container-menu .main-menu .group-li li:hover{
+    background-color:greenyellow;
+    transition: all .4s;
+   }
+  .wrapper-nav .container-menu .main-menu:nth-child(2) .group-li li:nth-child(2) {
+    background-color: #5D88E5;
+    pointer-events: none;
+   }
+  .wrapper-nav .container-menu .main-menu:nth-child(2) .group-li li:nth-child(2) a {
+    font-size: 16px;
+    letter-spacing: 1px;    
+   }  
+ .wrapper-nav .container .main-menu .submenu {
+   background-color:darkseagreen;   
+   visibility: hidden;   
+  }
+ .wrapper-nav .container .main-menu:hover {
+  background-color:greenyellow;
+  transition: all .08s;
+  }
