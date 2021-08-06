@@ -25,15 +25,14 @@ span.material-icons {
   justify-content: center;  
 }
 .wrapper-nav {
-  background-color: cadetblue;
+  
   display: flex;
   width: 100%;
   height: 80px;
 }
 .wrapper-nav .container-menu {
   width: 100%;
-  height: 100%;
-  background-color: coral;
+  height: 100%;  
   display: flex;
  } 
 .wrapper-nav .container-menu .main-menu {
